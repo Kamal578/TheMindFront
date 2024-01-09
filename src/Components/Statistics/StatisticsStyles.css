@@ -1,0 +1,66 @@
+.statisticsBody {
+    background-image: url('../../../public/images/image\ 3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-color: black;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 6em;
+   
+    /* blur background */
+
+
+}
+
+.statisticsCard
+{
+    background-color:rgb(1, 14, 31,0.6);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0.2em 0.6em 5em ;
+    width: 48rem;
+    height: 28rem;
+    align-items: center;
+    justify-content: center;
+    filter: none;
+    display: flex;
+    border-radius: 0.4em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card1
+{
+    flex-direction: column;
+    width: 70%;
+    margin-right: 1em;
+    border-radius: 0.8em;
+}
+
+.leftc
+{
+    padding: 2em;
+}
+
+.rightc
+{
+    width: 30%;
+    justify-content: space-around;
+}
+
+.card2,.card3,.card4
+{
+    align-items: center;
+    text-align: center;
+    border-radius: 0.8em;
+    
+}
+
+.card3
+{
+ margin-top: 1em;
+ margin-bottom:1em;
+}

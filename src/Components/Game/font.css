@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+@font-face {
+    font-family: 'Sleman';
+    font-style: normal;
+    src: url('../../fonts/SLEMAN\ DEMO\ 400.ttf');
+}
+
+.gamecard div{
+    font-family: Sleman;
+    box-shadow: none;
+}
+
+.hoverable:hover {
+    
+    translate: -11vh;
+    transition: 0.5s;
+}
+
+.hoverable:not(:hover){
+    transition: 0.5s;
+}
+
+.sideRow {
+    transform: rotate(90deg);
+}
+
+.terminal div{
+    font-family: 'VT323', monospace;
+}
+
+

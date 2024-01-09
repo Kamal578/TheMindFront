@@ -1,0 +1,50 @@
+.main-profile-wrapper
+{   
+    position: relative;
+    margin: auto;
+    margin-top: 4%;
+    height: 40em;
+    flex-direction: column;
+    width: 75%;
+    box-shadow: 0.2em 0.6em 1em;
+    border-radius: 0.5em;
+    padding-top: 3em;
+    background-color:#F7F5FE;
+    
+}
+.box-header, .box-body,.box-footer
+{
+    width: 80%;
+    align-self: center;
+}
+.css-0
+{
+    width: 80%;
+    margin-top: 1em;
+}
+
+.box-footer
+{
+    width: 100%;
+    text-align: end;
+    margin-top: 5em;
+}
+.saveB:hover
+{
+    color: #09264A;
+    background-color: white;
+    border: 1px solid #09264A;
+}
+
+.box-header
+{
+    display: flex;
+}
+
+.buttonImage
+{
+    position: relative;
+    top: 3em;
+    right: 2em;
+    cursor: pointer
+}

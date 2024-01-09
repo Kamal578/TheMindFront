@@ -1,0 +1,29 @@
+
+.page_404{ 
+    padding:40px 0;
+    background:#ea6071;
+    font-family: 'Arvo', serif;
+
+}
+
+.page_404  img{
+    width:100%;
+    }
+
+.four_zero_four_bg{
+ 
+    background-image: url(https://gifimgs.com/res/0123/63b1a2ab32fd8606624195.gif);
+    height: 91vh;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ 
+ 
+ .four_zero_four_bg h1{
+ font-size:80px;
+ }
+ 
+.four_zero_four_bg h3{
+		font-size:80px;
+}
+			 

@@ -1,0 +1,133 @@
+.main-wrapper {
+    position: relative;
+    width:80%;
+    margin: auto;
+    margin-top: 3%;
+    height: 35em;
+    border-radius: 1em;
+    box-shadow: 0.2em 0.6em 2em;
+    background-color: white;
+   
+    
+}
+.blurred-background
+{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+.mail-link
+{
+    color: #010E1F;
+}
+.CiMail
+{
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    color: #010E1F;
+}
+
+.footer-for-link
+{
+    text-align: center;
+    height: 3em;
+    color: #010E1F;
+}
+
+.rightForBg
+{
+    background-color: none;
+}
+.left {
+    position: absolute;
+    transition-duration: 1s;
+    left: 0;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+}
+.right {
+    right: 0;
+    transition-duration: 1s;
+    position: absolute;
+    height: 100%;
+    padding: 5px;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    background-color: #010E1F;
+}
+
+
+
+.left-on-click
+{
+    left: 100%;
+    transform: translateX(-100%);
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    font-size: 1.75vh;
+
+}
+.right-on-click
+{
+    right: 100%;
+    transform: translateX(100%);
+    border-radius: 0;
+    background-color: #010E1F;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+.icon
+{
+    display: inline-block;
+    padding: 10px;
+}
+
+.create-account
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 115% !important;
+}
+
+.icon-register
+{
+    margin: 0.5em;
+}
+.inputItem
+{
+    font-size: 1.3em !important;
+    height: 2.2em !important;
+    background-color:#F4F8F7 !important; 
+    border-radius: 10px !important; 
+    border: none !important;
+    margin-bottom: 1.2em !important;
+}
+
+.confpass
+{
+    margin-bottom: 0em !important;
+}
+
+.gender
+{
+    margin-top: 1.2em !important;
+}
+
+.name, .surname
+{
+    width: 48% !important;
+}
+.name
+{
+    margin-right: 0.5em !important;
+}
